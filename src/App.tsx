@@ -77,7 +77,6 @@ function App() {
             {[
               { name: 'Арсен Толков', role: 'Developer, UI/UX designer' },
               { name: 'Роман Білецький', role: 'Project Manager' },
-              { name: 'Крищук Вікторія', role: 'Content Manager' },
               { name: 'Кирило Степанов', role: 'Content Manager' }
             ].map((member) => (
               <div key={member.name} className="text-center p-6 bg-blue-50 rounded-lg">
